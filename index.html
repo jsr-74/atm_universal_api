@@ -4,31 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
- <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <link rel="stylesheet" href="style.css">
+ <script src="script.js"></script>
 </head>
 <body>
     <!-- Final_data= {"Hname": h_name ,"AtmNo": Atm_no,"AtmDgt": Atm_digit,"ExpDt": exp_formatted,"AtmCvv": Atm_cvv,"AtmRef": Atm_ref }   -->
   
 <!-- <marquee behavior="scroll" direction="right"><img class="cl_img" src="{{ url_for('static', filename='jk.jpg') }}" width="100px"  height="100px" alt=""></marquee> -->
 
- <img class="cl_img1" src="{{ url_for('static', filename='klr.jpg') }}" width="100px"  height="100px" alt=""/> 
+ <!-- <img class="cl_img1" src="{{ url_for('static', filename='klr.jpg') }}" width="100px"  height="100px" alt=""/>  -->
   
 
      <h1 class="jhead">JSR PAYMENTS BANK</h1>
     <h1 class="hea">ATM CARD</h1>
    
-<img class="cl_img" src="{{ url_for('static', filename='jk.jpg') }}" width="100px"  height="100px" alt=""/>
+<img class="cl_img" src="jk.jpg" width="100px"  height="100px" alt=""/>
     <div class="flip-card" onclick="flipCard(this)">
         <div class="flip-card-inner">
             <div class="flip-card-front">
                 <p class="heading">SHOPPING -CUM-ATM CARD</p>
                 <div class="chip">
-                    <img src="{{ url_for('static', filename='kchip.png') }}" width="65px"  height="45px" alt="">
+                    <img src="kchip.png" width="65px"  height="45px" alt="">
 
                 </div>
                 <div class="fsymb">
-                    <img src="{{ url_for('static', filename='1.png') }}" width="65px"  height="55px" alt="">
+                    <img src="1.png" width="65px"  height="55px" alt="">
 
                 </div>
                 <div class="bname">JSR</div>
@@ -38,12 +38,12 @@
                 <p class="english">Financial Inclusion Card</p>
             </div>
                 <div class="contactless">
-                    <img src="{{ url_for('static', filename='wifib.png') }}" width="50px" height="50" alt="">
+                    <img src="wifib.png" width="50px" height="50" alt="">
 
                 </div>
             
                 <div class="logo">
-                    <img  src="{{ url_for('static', filename='jsr.png') }}" alt="" width="100px">
+                    <img  src="jsr.png" alt="" width="100px">
                 </div>
 
                <p class="number">{{ data.AtmNo }}</p>
@@ -72,7 +72,7 @@
 <p class="binfo">24x7 Toll Free Helpline Nos for customers in India-1800 1234, 1800 2100, 1800 112211, 1800 425 3800 & For reporting of Unauthorised Tans. 1800 11 1109. For International Customers-0091-80-2659 9990, e-mail: jsrpaymentscantact.co.in </p>
 <p class="dchaina">印度客戶的 24x7 免費幫助熱線號碼 - 1800 1274、1800 2000、1800 172211、1800 425 7400 以及用於報告未經授權的曬黑。 1800 11 1009。國際客戶-0091-80-2659 9980，電子郵件：傑斯爾 付款聯絡方式。公司。在</p>
 <div class="bsymb">
-    <img src="{{ url_for('static', filename='2.png') }}" width="70px"  height="70px" alt="">
+    <img src="2.png" width="70px"  height="70px" alt="">
 
 </div>
 <p class="num">{{ data.AtmRef }}</p>
