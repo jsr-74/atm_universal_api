@@ -31,9 +31,12 @@ def Atmcard():
 #    # Extract EX_JSON dictionary
     
     
-    #Expiry date formatted
+     #Expiry date formatted
     exp_date = sap_data["AtmExpDate"]  # e.g., "20301003"
-    exp_formatted = str(exp_date[4:6]) + '/' +   str(exp_date[2:4])  # 10/30
+    timestamp_erdat = int(exp_date[7:19])/ 1000 
+    dt = datetime.fromtimestamp(timestamp_erdat)
+    formatted_date = dt.strftime('%Y-%m-%d')
+    exp_formatted = str(formatted_date[5:7]) + '/' +   str(formatted_date[2:4])  # 10/30
     #ATM  number formatted ex 1111 2222 3333 4444
     Atm_no = " ".join( sap_data["AtmNumber"][i:i+4] for i in range(0, len( sap_data["AtmNumber"]), 4))
     Atm_digit =  sap_data["AtmDigits"]
@@ -47,4 +50,5 @@ def Atmcard():
 if __name__ == "__main__":
     # app.run(debug=True) "only in laptop"
      app.run(host="0.0.0.0", port=5000,debug=True) #other device also"
+
     
