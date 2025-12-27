@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide');
+
+body{
+    font-family: audiowide;
+    /* background-image: repeating-linear-gradient(YELLOW,RED,BLUE,rgb(0, 130, 95)); */
+        /* background-color: rgba(16, 114, 60, 0.7); */
+         /* Transparent white */
+        /* backdrop-filter: blur(10px); */
+      /* background-image: url('city_china.jpg'); */
+      /* background-image: url('rk.jpg'); */
+       background-image: url('japan_any.jpg');
+      /* background-image: url('japan.jpg'); */
+       /* background-image: url('city_china.jpg'); */
+      /* background-image: url('jk.jpg'); */
+       
+    background-size : cover;
+  background-repeat: repeat; /* Prevents image repetition if it doesn't fully cover */
+  /* background-position: center; */
+  background-color: aqua ;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+
+}
+img {
+  pointer-events: none;     /* Prevents right-click and dragging */
+  user-select: none;
+  -webkit-user-drag: none;  /* Safari */
+}
+/* .cl_add{
+margin-left: 100px;
+ z-index: -1PX;
+} */
+
+.cl_img1{
+ clip-path: circle(50%);
+ margin-left: 40px;
+ margin-top: 30px;
+ border-radius: 50%;
+ border: gold solid 3px;
+    /* border-radius: 50px; */
+}
+.cl_img{
+
+
+    clip-path: circle(50%);
+ margin-left: 800px;
+   margin-top: -120px;
+ border-radius: 50%;
+ border: gold solid 3px;
+    /* border-radius: 50px; */
+ margin-bottom: 70px;
+}
+
+.jhead{
+    /* color: rebeccapurple; */
+    font-family: audiowide;
+    margin-left:260px;
+    margin-top: -100px;
+font-style: italic;
+  font-weight: bold;
+
+  color:aqua;
+}
+.hea{
+    color: chartreuse;
+    font-family: audiowide;
+font-style: italic;
+    margin-left:350px;
+ /* margin-top: -0px; */
+  font-weight: bold;
+}
+
+
+
+.flip-card{
+        
+    
+     /* aspect-ratio: 16/9;  */
+    background-color: transparent;
+    width: 380px;
+    height: 243px;
+    /* perspective: 1000px; */
+    margin-left: 250px;
+    margin-top: 500px;
+}
+
+.heading{
+    position: absolute;
+    color: black;
+    /* letter-spacing: 1px; */
+    font-size: 7px;
+    top: 6px;
+    left:260px;
+    font-family: serif;
+
+}
+.hindi{
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    font-size: 12px;
+}
+.english{
+    position: absolute;
+    top: 55px;
+    left: 15px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.chip{
+    position:absolute;
+    top: 84px;
+    left: 38px;
+  
+}
+.contactless{
+    position: absolute;
+    top: 45px;
+    left:260px ;
+    /* background-color: green; */
+}
+.fsymb{
+    position: absolute;
+    top: 45px;
+    left:300px ;
+}
+.symbol{
+    position: absolute;
+    top: 45px;
+    left: 315px;
+    /* border: 2px dotted greenyellow; */
+    border-radius: 50%;
+}
+
+.logo{
+    position: absolute;
+    top: -15px;
+    left: -17px;
+
+    
+}
+.bname{
+    position: absolute;
+    top: 17px;
+    left: 60px;
+    font-size: large;
+    color: blue;
+}
+
+.number{
+    position: absolute;
+    top: 105px;
+    left: 48px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    font-family: audiowide;
+    letter-spacing:1.5px;}
+
+.valid_thru{
+    position: absolute;
+    color: green;
+    font-size: 10px;
+    font-weight: bold;
+    top: 145px;
+    left: 140px;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.digits{
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    /* font-weight: bold; */
+    top: 145px;
+    left: 29px;
+    /* letter-spacing: 2px; */
+
+}
+.date{
+    position: absolute;
+    color: green;
+    top: 160px;
+    left: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.uname{
+    position: absolute;
+    color: brown;
+    top: 185px;
+    left: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+   right: 140px;
+   text-wrap: wrap;
+   /* text-align: center; */
+flex-wrap: wrap;
+text-transform: uppercase;
+
+
+}
+
+.bank{
+    position: absolute;
+
+    top: 170px;
+    left: 270px;
+    font-style: oblique;
+    font-size: large;
+    font-weight: bold;
+    background:linear-gradient(15deg,rgb(66, 8, 190),YELLOW);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.debit{
+    position: absolute;
+
+    top: 198px;
+    left: 300px;
+    font-style: oblique;
+    font-size:medium;
+    /* font-weight: bold; */
+
+
+}
+ .verticle{
+    position: absolute;
+    top: 110px;
+    left: -5px;
+    writing-mode:vertical-lr;
+    transform: rotate(180deg);
+    text-align: right;
+    font-size: x-small;
+    color: blue;
+    font-weight: bold;
+    font-family: serif;
+    color: black;
+  
+ }
+
+
+
+
+
+.strip{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+
+    height: 3.5em;
+    top: 1.5em;
+background:repeating-linear-gradient(45deg,
+#303030,#303030 10px, #202020 10px, #202020 20px);
+
+}
+.mstrip{
+
+position: absolute;
+background-color:white;
+width: 13em;
+height: 2em;
+top: 5.5em;
+left: .8em;
+border-radius: 2.5px;
+
+}
+.sstrip{
+    position: absolute;
+background-color: white;
+width: 4em;
+height: 1.2em;
+top: 5.8em;
+left: 13em;
+border-radius: 2.5px;
+
+
+}
+
+.code{
+    font-weight: bold;
+    text-align: center;
+    color: block;
+    margin-top: 1px;
+    font-style: italic;
+  
+}
+
+.flip-card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 10s;
+    transform-style: preserve-3d;
+
+
+}
+
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+    transform:rotateY(-180deg);
+}
+ .flip-card:hover .flip-card-back{
+    transform:rotateY(180deg);
+
+}
+.flip-card:hover {
+zoom: 2.3;
+margin-left: 25px; 
+ margin-top: 50px;   
+}
+
+.back-data{
+    position: absolute;
+    top: -15px;
+    left: 200px;
+}
+
+.flip-card-front, .flip-card-back{
+
+box-shadow: 0 8px 14px 0 rgba(0,0,0,2);
+position: absolute;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden; 
+border-radius: 1rem;
+
+
+}
+.info{
+    position: absolute;
+    top: 150px;
+    font-size:5px;
+    left: 150px;
+    right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.barder{
+    /* border:1px solid black; */
+    position: absolute;
+    top: 170px;
+    left: 150px;
+    right: 20px;
+    border-color: black;
+    
+}
+.binfo{
+    position: absolute;
+    top: 175px;
+    font-size:5px;
+    left: 150px;
+    right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.uchaina{
+    position: absolute;
+    top:130px;
+    font-size: 5px;
+    left:150px;
+    right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.dchaina{
+    position: absolute;
+    top:195px;
+    font-size: 5px;
+    left:150px;
+    right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.bsymb{
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    
+}
+    .num{
+        position: absolute;
+        top: 200px;
+        left: 30px;
+    }
+
+.flip-card-front{
+    /* box-shadow: rgba(0,0,0,4) 0 2px 2px,rgba(0,0,0,3) 0 7px 13px -3px,rgba(0,0,0,2) 0 -1px 0 inset; */
+    background-color:gold ;
+    /* background-image: url('jyo.png');
+    background-size: cover; */
+
+}
+.flip-card-back{
+    /* box-shadow: rgba(0,0,0,4) 0 2px 2px,rgba(0,0,0,3) 0 7px 13px -3px,rgba(0,0,0,2) 0 -1px 0 inset; */
+    background-color: gold;
+    transform: rotateY(180deg);
+    /* background-size: cover;
+    background-image: url('jyo.png'); */
+
+    
+}
+
+.watermark {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.3;
+  font-size: 12px;
+  pointer-events: none;
+  z-index: 9999;
+  color: black;
+}

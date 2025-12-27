@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+ <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <!-- Final_data= {"Hname": h_name ,"AtmNo": Atm_no,"AtmDgt": Atm_digit,"ExpDt": exp_formatted,"AtmCvv": Atm_cvv,"AtmRef": Atm_ref }   -->
+  
+<!-- <marquee behavior="scroll" direction="right"><img class="cl_img" src="{{ url_for('static', filename='jk.jpg') }}" width="100px"  height="100px" alt=""></marquee> -->
+
+ <img class="cl_img1" src="{{ url_for('static', filename='klr.jpg') }}" width="100px"  height="100px" alt=""/> 
+  
+
+     <h1 class="jhead">JSR PAYMENTS BANK</h1>
+    <h1 class="hea">ATM CARD</h1>
+   
+<img class="cl_img" src="{{ url_for('static', filename='jk.jpg') }}" width="100px"  height="100px" alt=""/>
+    <div class="flip-card" onclick="flipCard(this)">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <p class="heading">SHOPPING -CUM-ATM CARD</p>
+                <div class="chip">
+                    <img src="{{ url_for('static', filename='kchip.png') }}" width="65px"  height="45px" alt="">
+
+                </div>
+                <div class="fsymb">
+                    <img src="{{ url_for('static', filename='1.png') }}" width="65px"  height="55px" alt="">
+
+                </div>
+                <div class="bname">JSR</div>
+                <div>
+                <p class="hindi">
+                    वित्तीय समावेशन कार्ड</p>
+                <p class="english">Financial Inclusion Card</p>
+            </div>
+                <div class="contactless">
+                    <img src="{{ url_for('static', filename='wifib.png') }}" width="50px" height="50" alt="">
+
+                </div>
+            
+                <div class="logo">
+                    <img  src="{{ url_for('static', filename='jsr.png') }}" alt="" width="100px">
+                </div>
+
+               <p class="number">{{ data.AtmNo }}</p>
+                <p class="valid_thru">valid thru</p>
+
+                <p class="date">{{ data.ExpDt }}</p>
+                <p class="uname">{{ data.Hname }}</p>
+<p class="bank">JSRPAY</p>
+<p class="debit">DEBIT</p>
+<p class="digits">{{ data.AtmDgt }}</p>
+<p class="verticle">International Use Also</p>
+            </div>
+<div class="flip-card-back">
+<div class="strip"></div>
+<div class="mstrip"></div>
+<div class="sstrip"> 
+
+<p class="code">{{ data.AtmCvv }}</p></div>
+
+
+
+<p class="back-data">Electronic Use Only</p>
+<p class="uchaina">此 傑斯爾 付款 銀行 金融卡是 傑斯爾 付款 銀行 的 印度 的財產，並受銀行金融卡協議的條款和條件管轄。必須根據要求將其返還給銀行。如果發現，請返回最近的 傑斯爾 付款 銀行 的 印度 分行。</p>
+<p class="info">This Jsr Payments Bank Debit card is the property of Jsr Payments Bank of India and its are is governed by the terms and conditions of the Bank's Debit Card Agreement. It must be returned to the Bank on request. If found, please return to the nearest Branch of Jsr Payments Bank of Indias.</p>
+<hr class="barder">
+<p class="binfo">24x7 Toll Free Helpline Nos for customers in India-1800 1234, 1800 2100, 1800 112211, 1800 425 3800 & For reporting of Unauthorised Tans. 1800 11 1109. For International Customers-0091-80-2659 9990, e-mail: jsrpaymentscantact.co.in </p>
+<p class="dchaina">印度客戶的 24x7 免費幫助熱線號碼 - 1800 1274、1800 2000、1800 172211、1800 425 7400 以及用於報告未經授權的曬黑。 1800 11 1009。國際客戶-0091-80-2659 9980，電子郵件：傑斯爾 付款聯絡方式。公司。在</p>
+<div class="bsymb">
+    <img src="{{ url_for('static', filename='2.png') }}" width="70px"  height="70px" alt="">
+
+</div>
+<p class="num">{{ data.AtmRef }}</p>
+</div>
+
+
+        </div>
+    </div>
+    <div class="watermark">User: example@email.com</div>
+</body>
+</html>
